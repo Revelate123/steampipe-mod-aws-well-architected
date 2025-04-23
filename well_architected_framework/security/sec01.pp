@@ -5,7 +5,7 @@ locals {
 }
 
 benchmark "well_architected_framework_sec01" {
-  title       = "SEC01 How do you securely operate your workload?"
+  title       = "SEC01 How do you securely operate your workload? test"
   description = "To operate your workload securely, you must apply overarching best practices to every area of security. Take requirements and processes that you have defined in operational excellence at an organizational and workload level, and apply them to all areas. Staying up to date with AWS and industry recommendations and threat intelligence helps you evolve your threat model and control objectives. Automating security processes, testing, and validation allow you to scale your security operations."
   children = [
     benchmark.well_architected_framework_sec01_bp01,
